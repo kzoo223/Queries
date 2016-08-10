@@ -1,0 +1,171 @@
+body {
+background-image: url("../images/asanoha.png");
+background-color: #ffffff
+font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+color:#777777;
+margin:0px;
+}
+
+#header {
+width: 100%;
+background: #ffffff;
+display: inline-block;
+margin: 0 0 25px 0;
+}
+
+
+#nav {
+float: right;
+margin:top 25px;
+}
+
+#main
+{
+margin-left: 113px;
+margin-right: 174px;
+width:960px;
+}
+
+#profile
+{
+float:left;
+margin-right:10px;
+
+}
+#header{
+color:#ffffff
+}
+
+#midheader{
+	width:960px;
+	height: 50px;
+	margin: 0 0 0 113px;
+}
+
+#nav{
+color:#777777;
+padding-top: 15px;
+padding-right: 55px;
+}
+
+#left{
+float:left;
+width: 650px;
+background-color: #FFFFFF;
+margin-right: 30px;
+padding: 24px;
+height: 500px;
+}
+
+
+button{
+	width:100px;
+	height:20px;
+	background-color: #4aaaa5;
+	color:#FFFFFF;
+
+}
+
+#about
+{
+	margin-top: 10px;
+}
+
+#right{
+float:left;
+width: 167px;
+height: 191px;
+background-color: #FFFFFF;
+padding: 24px;
+}
+
+
+#footer{
+clear:both;
+background-color:#666666;
+   border-top: thick solid #4aaaa5;
+   position: fixed;
+   bottom: 0;
+   width:100%;
+   padding: 25px;
+   color: #ffffff;
+   font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+#message{
+	height:150px;
+}
+
+li
+{
+display: inline;
+}
+
+h1 {
+float: left;
+padding: 7px;
+font-family: 'Georgia', Times, Times New Roman, serif;
+color:#FFFFFF;
+background-color:#4aaaa5;
+width: 173px;
+}
+
+h2 {
+
+font-family: 'Georgia', Times, Times New Roman, serif;
+color:#4aaaa5;
+}
+
+h3 {
+
+font-family: 'Georgia', Times, Times New Roman, serif;
+color:#4aaaa5;
+}
+
+form{
+	width: 473px;
+	padding-top: 10px;
+}
+
+input{
+	width:650px;
+	height: 50px;
+	border: solid 1px;
+}
+
+textarea{
+	width: 650px;
+	height: 200px;
+	border: solid 1px;
+}
+
+
+
+/*portfolio page*/
+
+.portimg{
+	width: 200px;
+	height: 200px;
+	float:left;
+	padding:2px;
+}
+
+
+#header 
+{
+	position:static;
+}
+
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 640px) {
+	
+}
