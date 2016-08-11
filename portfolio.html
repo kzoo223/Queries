@@ -1,80 +1,71 @@
-<!-- Index Page-->
 <!doctype html>
 <html>
-	<head>
-		<title>My Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-	</head>
-	<body>
-		<!--header and nav-->
-		<div id= "header">
-			<div id="midheader">
-			<h1>Kevin Zhu</h1>
-			
-			<div id= "nav">
-				<ul>
-				<li><a href=index.html>about</a></li>
-				<li><a href=contact.html>contact</a></li>
-				<li><a href=portfolio.html>portfolio</a></li>
-				</ul>
-			</div>
-			</div>
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio | Your Name</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Your Name</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
 		</div>
-		
-		
-	<div id="main">
-		<!--about me section-->	
-		<div id= "left">
-			<h2>Portfolio</h2>
-			<hr>
-			<br>
+	</header>
 
-			<div id= "item1">
-				<img src=assets/images/sunset.jpeg class="portimg">
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1>Portfolio</h1>
+
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+
+				<h3>Hangman</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+				<h3>RPG Game</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+				<h3>Trivia Game</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+				<h3>Rutgers Info Widget</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+				<h3>Rock Paper Scissors</h3>
 			</div>
 
-			<div id= "item2">
-				<img src=assets/images/fireworks.jpeg class="portimg"">
-			</div>
-				
-			
-			<div id="item3">			
-				<img src=assets/images/pool.jpeg class="portimg"">
-			</div>
+		</section>
 
-			<div id= "item4">
-				<img src=assets/images/maschine.jpg class="portimg"">
-			</div>
-			
-			<div id= "item5">
-				<img src=assets/images/a6000.jpg class="portimg"">
-			</div>
-				
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
 
-		</div>
-		
-		<!--social links section-->
-		<div id="right">
-			<h3>Connect with me</h3>
-			<hr>
-			<br>
-			<img src=assets/images/github.png height="50" width="50" id="github.png">
-			<img src=assets/images/linkedin.png height="50" width="50" id="linkedin.png">
-
-		</div>
+				<img src="assets/images/github-128.png" class="social" alt="Github">
+				<img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn">
+				<img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow">
+			</div>
+		</section>
 	</div>
 
-		<!--copyright-->
-		
-		
-		<div id="footer">
-			
-			<center>Copyright 2016 Kevin Zhu</center>
-			
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 Your Name
 		</div>
-	</body>
-
-
-	</html>
+	</footer>
+</body>
+</html>
